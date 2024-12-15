@@ -259,7 +259,7 @@ body {
 }
 
 .slider {
-    padding: 20px 0;
+    padding: 30px 0;
     background-color: #1b3d63;
     background-image: url('../img/bg-snow.png');
     background-repeat: no-repeat;
@@ -556,9 +556,8 @@ body {
 }
 
 @media (hover: hover) {
-    .contacts-list__item-link:hover .contacts-list__item-info,
-    .contacts-list__item-link:hover .contacts-list__item-title {
-        color: #ff4646;
+    .contacts-list__item:hover {
+        outline: 2px solid #1b3d63;
     }
 }
 
@@ -678,6 +677,7 @@ body {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.2s, visibility 0.2s;
+    box-shadow: 0 2px 10px rgba(0,0,0,.4);
 }
 
 .scroll-to-top-btn.active-top-btn {
